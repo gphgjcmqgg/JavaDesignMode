@@ -5,7 +5,7 @@ public class Segregation2 {
   public static void main (String[] args) {
     AA a = new AA();
     BB b = new BB();
-    a.dependence1(b);
+    a.dependence1(b); // AA通过接口依赖BB
     a.dependence4(b);
     a.dependence5(b);
   }
