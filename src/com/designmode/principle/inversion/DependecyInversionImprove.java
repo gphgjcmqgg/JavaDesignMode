@@ -43,7 +43,7 @@ class Person2 {
 }
 
 // 依赖倒转方式
-// 方式1：通过接口传递实现依赖
+// 方式1：通过接口传递实现依赖        依赖
 // interface IOpenAndClose {
 //   void open(ITV tv);
 // }
@@ -59,7 +59,7 @@ class Person2 {
 //   }
 // }
 
-// 方式2：通过构造方法依赖传递
+// 方式2：通过构造方法依赖传递        依赖
 // interface IOpenAndClose {
 //   void open();
 // }
@@ -80,7 +80,7 @@ class Person2 {
 //   }
 // }
 
-// 方式3：通过setter方法依赖传递
+// 方式3：通过setter方法依赖传递      聚合
 // interface IOpenAndClose {
 //   void open();
 // }
@@ -101,3 +101,4 @@ class Person2 {
 //     this.tv.play();
 //   }
 // }
+
