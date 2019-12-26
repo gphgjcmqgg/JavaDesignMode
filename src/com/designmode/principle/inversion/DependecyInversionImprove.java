@@ -4,10 +4,10 @@ package com.designmode.principle.inversion;
 public class DependecyInversionImprove {
   public static void main (String[] args) {
     Person2 p = new Person2();
-   IReceiver email = new Email2();
-   IReceiver weixin = new WeiXin();
-   p.receive(email);
-   p.receive(weixin);
+    IReceiver email = new Email2();
+    IReceiver weixin = new WeiXin();
+    p.receive(email);
+    p.receive(weixin);
   }
 }
 
